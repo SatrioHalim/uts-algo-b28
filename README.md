@@ -13,21 +13,21 @@ bertambah. Jika transaksi kredit, uang berkurang. Bantu Xett menghitung saldo ak
 jumlah transaksi. 
 - N baris selanjutnya berisi karakter huruf D atau K, disusul oleh nominal X.
   
-**Format Output:** 
+**Format Output:** <br />
 Tampilkan saldo akhir dari perhitungan mutasi rekening.
 
 **Constraints:**
-  10^3 <= M,X <= 10^6
-  1 <= N <= 100
-  character ∈ {D,K}
+- 10^3 <= M,X <= 10^6
+- 1 <= N <= 100
+- character ∈ {D,K}
 
-**Sample Input**
-10000 3 
-D 2000 
-D 9000 
-K 10000 
+**Sample Input**<br />
+10000 3 <br />
+D 2000 <br />
+D 9000 <br />
+K 10000 <br />
 
-**Sample Output**
+**Sample Output**<br />
 11000 
 
 **Penjelasan**
@@ -49,25 +49,25 @@ ini!
 - Baris pertama merupakan integer N yang merupakan jumlah sandi yang ingin disederhanakan 
 - N baris selanjutnya berisi sandi tanpa spasi yang ingin disederhanakan
   
-**Format Output:** 
+**Format Output:** <br />
 Untuk N baris, tampilkan semua sandi yang sudah disederhanakan. Jika tidak menghasilkan sandi apapun, 
 tampilkan “Sandi Kosong!”
  
 **Constraints:**
-  1 <= N <= 100
-  5 <= |S| <= 100
-  S terdiri dari huruf kecil, huruf besar, angka, dan tanda baca. 
+- 1 <= N <= 100
+- 5 <= |S| <= 100
+- S terdiri dari huruf kecil, huruf besar, angka, dan tanda baca. 
 
-**Sample Input**
-3 
-b!n@Nus@n7@rA 
-b33N00Z 
-!@*#!(@$! 
+**Sample Input**<br />
+3 <br />
+b!n@Nus@n7@rA <br />
+b33N00Z <br />
+!@*#!(@$! <br />
 
-**Sample Output**
-bnNusn7rA 
-b33N00Z 
-Sandi Kosong!  
+**Sample Output**<br />
+bnNusn7rA <br />
+b33N00Z <br />
+Sandi Kosong!  <br />
 
 **Penjelasan**
 - Sandi pertama memiliki simbol ! dan @, sehingga kedua simbol tersebut dihapus
@@ -88,19 +88,19 @@ dimiliki kelompok pengkhianati. Bantu Zeta menemukan pengkhianat!
 - Baris pertama berisi integer N yang merupakan jumlah orang dalam perkumpulan.  
 - Baris kedua berisi N angka X yang dimiliki oleh setiap orang.
   
-**Format Output:** 
+**Format Output:** <br />
 Tampilkan angka yang dimiliki oleh kelompok pengkhianat. Akan selalu ada satu kelompok pengkhianat. 
  
 **Constraints:**
-  5 <= N <= 100
-  N % 2 == 1
-  0 <= X <= 9
+- 5 <= N <= 100
+- N % 2 == 1
+- 0 <= X <= 9
 
-**Sample Input**
-9 
-6 2 6 6 8 6 2 3 3
+**Sample Input**<br />
+9 <br />
+6 2 6 6 8 6 2 3 3<br />
 
-**Sample Output**
+**Sample Output**<br />
 8  
 
 **Penjelasan**
@@ -129,32 +129,32 @@ seninya melalui catatan buku tamu. Bantu Zeta mengetahui kondisi seninya.
 - Baris selanjutnya berisi integer T yang merupakan jumlah pertukaran
 - T baris selanjutnya berisi posisi baris dan kolom Y yang ingin ditukar posisinya. 
   
-**Format Output:** 
+**Format Output:** <br />
 Tampilkan kondisi papan seni terakhir dengan ukuran N x N. 
  
 **Constraints:**
-  2 <= N,Y <= 8
-  1 <= X <= 7
-  0 <= T <= 10
+- 2 <= N,Y <= 8
+- 1 <= X <= 7
+- 0 <= T <= 10
   
-**Sample Input**
-5 
-1 6 7 2 3 
-3 4 4 1 2 
-7 6 4 2 3 
-5 5 5 2 1 
-4 2 1 1 3 
-3 
-3 
-4 
-2
+**Sample Input** <br />
+5 <br />
+1 6 7 2 3 <br />
+3 4 4 1 2 <br />
+7 6 4 2 3 <br />
+5 5 5 2 1 <br />
+4 2 1 1 3 <br />
+3 <br />
+3 <br />
+4 <br />
+2 <br />
 
-**Sample Output**
-1 3 7 5 3  
-6 4 4 1 2  
-7 6 4 2 1  
-2 5 5 2 1  
-4 2 3 1 3  
+**Sample Output** <br />
+1 3 7 5 3  <br />
+6 4 4 1 2  <br />
+7 6 4 2 1  <br />
+2 5 5 2 1  <br />
+4 2 3 1 3  <br />
 
 **Penjelasan**
 - Pada tahap pertama, tukar baris 3 dengan kolom 3
@@ -171,13 +171,12 @@ sepele, Zett memutuskan untuk mengerjakan tugas ini dengan serius untuk memastik
 berjalan dengan benar sebelum ia melangkah ke proyek yang lebih besar. Bantu Zett untuk membuat 
 program sederhana tersebut.
 
-**Format Input:** 
+**Format Input:** <br />
 Tidak ada input dalam soal ini.
   
-**Format Output:** 
+**Format Output:** <br />
 Anda hanya perlu mencetak 1 baris yang berisi “Hello World!” (Tanpa tanda kutip). 
   
-**Sample Output**
+**Sample Output**<br />
 Hello World! 
 
-**Penjelasan** 
