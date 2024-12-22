@@ -1,6 +1,6 @@
-# Jawaban Soal UTS Algo b28
+# Jawaban Soal UTS Algo b28 
+ini extension cpp karena pake c di dev cpp
 
----
 
 ## 1.  Mutasi Rekening
 Xett ingin menghitung saldo akhir dari suatu periode dengan memanfaatkan mutasi rekening. Awalnya 
